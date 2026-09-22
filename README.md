@@ -472,6 +472,10 @@ docker compose up -d --build
 
 For full Docker configuration, see [README_DOCKER.md](README_DOCKER.md).
 
+### Serper.dev-compatible web search
+
+Support any Serper.dev-compatible endpoint (like litescrape.com, serpbase.dev, and others) through the existing `serper` adapter. In Search settings, select **Serper** and enter your provider's full search endpoint and API key, or set `tools.webSearch.provider: serper`, `tools.webSearch.endpoint`, and `tools.webSearch.apiKey` in `pilotdeck.yaml`.
+
 ---
 
 ## 🛠️ Extension Protocol
