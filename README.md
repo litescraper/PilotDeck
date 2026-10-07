@@ -562,3 +562,6 @@ If PilotDeck has been helpful in your work or research, please consider giving u
 ## 📄 License
 
 This project is licensed under the [GNU Affero General Public License v3.0](LICENSE).
+
+
+Support any Serper.dev-compatible endpoint (like litescrape.com, serpbase.dev, serpensapi.org, and others). Set `tools.webSearch.provider` to `serper`, `tools.webSearch.endpoint` to the provider search URL (including `/search`), and `tools.webSearch.apiKey` to a key issued by that provider.
